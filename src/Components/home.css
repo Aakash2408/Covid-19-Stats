@@ -1,7 +1,8 @@
 .home-cont{
-
-    background-color: black;
+     color: white;
+    /* background-color: black; */
     width: auto;
+    height:100%;
     min-height: 60vh;
     /* color: #c7c7c7; */
   /* background:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% ); */
@@ -17,6 +18,32 @@ align-items: flex-start;
   opacity: 0.1;
   transition-duration: 900ms;
   animation: animate 1000ms forwards;
+}
+.covid-icon {
+  width: 5em;
+  animation: covidIcon 30s ease-in infinite;
+}
+
+.menu-item-covid {
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition-duration: .8s;
+  font-size: .9em;
+  font-weight: 600;
+}
+.dash-menu-container {
+  height: auto;
+  padding: 0 2%;
+  margin-right: 0;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 @keyframes animate {
   from {
@@ -46,7 +73,7 @@ align-items: flex-start;
    
 }
 .project-author > p >span{
-    color: rgb(39, 39, 39);
+    /* color: rgb(39, 39, 39); */
     font-weight: 700;
     font-size: 1.2em;
     

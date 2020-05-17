@@ -19,7 +19,7 @@ function About() {
         <div className="author-card">
           <div>
             <p className="dev-by">Developed by</p>
-            <p className="author-name">Saurabh Burade</p>
+            <p className="author-name">Aakash Sangwan</p>
           </div>
           <div className="author-links">
             <a href="https://github.com/aakash2408">
@@ -27,7 +27,7 @@ function About() {
                 <FiGithub />{" "}
               </span>
             </a>
-            <a href="https://www.linkedin.com/in/saurabh-burade-8371ab182/">
+            <a href="">
               <span className="auth-social-icon">
                 <FaLinkedin />{" "}
               </span>
@@ -37,7 +37,7 @@ function About() {
                 <FaInstagram />{" "}
               </span>
             </a>{" "}
-            <a href="https://www.facebook.com/princesaurabh121">
+            <a href="">
               <span className="auth-social-icon">
                 <FaFacebookF />
               </span>

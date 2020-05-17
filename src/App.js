@@ -15,10 +15,10 @@ import { connect } from "react-redux";
 import loader from "./Components/Images/loader.svg";
 import "./App.css"
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.props.fetchStateWise();
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.props.fetchStateWise();
+  // }
 
   render() {
     return (

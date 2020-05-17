@@ -10,7 +10,7 @@ function Home() {
         <div className="project-author">
           <p>
             This Project is developed by <span>Aakash Sangwan</span>
-            <a href="https://github.com/saurabhburade">
+            <a href="https://github.com/aakash2408">
               <FiGithub />
             </a>
           </p>
