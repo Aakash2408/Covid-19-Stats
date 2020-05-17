@@ -5,7 +5,7 @@ function Home() {
     return (
       <div className="home-cont">
         <div className="project-title">
-          <h1>COVID 19 Dashboard</h1>
+          <h1>COVID 19 </h1>
         </div>
         <div className="project-author">
           <p>

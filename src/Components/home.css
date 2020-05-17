@@ -23,7 +23,22 @@ align-items: flex-start;
   width: 5em;
   animation: covidIcon 30s ease-in infinite;
 }
-
+.logo-name {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 2%;
+  margin: 0 5%;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #799c9c;
+}
+.menu-item {
+  width: 100%;
+  margin: 0 1%;
+  padding: 2%;
+  cursor: pointer;
+  color: #555!important;
+}
 .menu-item-covid {
   height: 100%;
   padding: 1%;
@@ -34,6 +49,11 @@ align-items: flex-start;
   transition-duration: .8s;
   font-size: .9em;
   font-weight: 600;
+}
+.menu-right-cont {
+  width: 40%;
+  justify-content: space-around;
+  display: flex;
 }
 .dash-menu-container {
   height: auto;
@@ -89,9 +109,9 @@ align-items: flex-start;
 
     width: auto;
    height: auto;
-  /* background-color:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% ); */
-    /* background-image: url("./Images/undraw_work_chat_erdt.svg"); */
-    /* background-repeat:  no-repeat; */
+  background-color:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% );
+    background-image: url("./Images/undraw_work_chat_erdt.svg");
+    background-repeat:  no-repeat;
   background-position-y:bottom ;
     background-size: contain;
   
