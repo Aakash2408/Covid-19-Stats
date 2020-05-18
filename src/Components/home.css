@@ -1,27 +1,49 @@
+
 .home-cont{
-     color: white;
-    /* background-color: black; */
-    width: auto;
-    height:100%;
-    min-height: 60vh;
-    /* color: #c7c7c7; */
-  /* background:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% ); */
-    background-image: url("./Images/undraw_work_chat_erdt.svg");
-    background-repeat:  no-repeat;
-  background-position-x: right;
-    background-size: contain;
-    margin:5% 10%;
-    display: flex;
+  color: white;
+  width: auto;
+  height:100%;
+  min-height: 60vh; 
+    margin-top: 5%;
+  display: flex;
+
     justify-content: center;
-align-items: flex-start;
-    flex-direction: column;
+
+    flex-direction: row;
   opacity: 0.1;
   transition-duration: 900ms;
   animation: animate 1000ms forwards;
 }
 .covid-icon {
   width: 5em;
+  -webkit-animation:  covidIcon 30s ease-in infinite;
   animation: covidIcon 30s ease-in infinite;
+}
+
+.image-container{
+  margin-left:25%;
+}
+.image{
+  -webkit-animation:  covid 120s ease-in infinite;
+  animation: covid 120s ease-in infinite;
+  /* margin-right:2%; */
+}
+
+@keyframes covidIcon{
+  0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(1turn);
+}
+}
+@keyframes covid{
+  0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(1turn);
+}
 }
 .logo-name {
   display: inline-block;
@@ -32,6 +54,26 @@ align-items: flex-start;
   font-size: 1.5em;
   color: #799c9c;
 }
+h1{
+  font-weight: 700;
+  font-size: 110px;
+  color: #fff;
+  margin-top:30%;
+  background: -webkit-linear-gradient( rgb(228, 11, 11),rgb(236, 11, 22),#eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+h2{
+  /* font-weight:400; */
+  font-size:xx-large;
+  margin-top:-15%;
+  color: #eee;
+}
+p{
+  text-decoration: none;
+}
+
 .menu-item {
   width: 100%;
   margin: 0 1%;
@@ -77,7 +119,7 @@ align-items: flex-start;
     font-size: 2em;
     font-weight: 600;
     color: rgb(78, 92, 105);
- 
+    display: flex;
     white-space: pre-wrap;
 }
 .project-author a{
@@ -109,27 +151,34 @@ align-items: flex-start;
 
     width: auto;
    height: auto;
-  background-color:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% );
-    background-image: url("./Images/undraw_work_chat_erdt.svg");
-    background-repeat:  no-repeat;
-  background-position-y:bottom ;
-    background-size: contain;
-  
     padding: 0%;
     display: flex;
     justify-content: flex-start;
 align-items: flex-start;
     flex-direction: column;
 }
-.project-title{
+/* .project-title{
     font-size: 1.5em;
     font-weight: 600;
     color: rgb(78, 92, 105);
  
     white-space: pre-wrap;
-}
+} */
 .home-cont{
   justify-content: flex-start;
   text-align: left;
+}
+h1{
+  margin-top:50%;
+  font-size: 1.8em;
+  /* margin-left: auto; */
+  padding-left:5px;
+  /* border:5px  */
+}
+
+.image{
+
+  -webkit-animation:  covid 30s ease-in infinite;
+  animation: covid 30s ease-in infinite;
 }
 }

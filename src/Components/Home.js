@@ -1,20 +1,26 @@
 import React from 'react';
 import { FiGithub } from "react-icons/fi";
+import virus from './Images/virus.png';
 import "./home.css"; 
+
 function Home() {
     return (
+      <div className="main-cont">
       <div className="home-cont">
         <div className="project-title">
-          <h1>COVID 19 </h1>
+           <div className="h1-container">
+              <h1>COVID-19</h1>
+              <h2>CORONAVIRUS DISEASE</h2>
+              {/* <p> A project by <a href="https://github.com/Aakash2408">Aakash Sangwan</a></p>  */}
+          </div>
         </div>
-        <div className="project-author">
-          <p>
-            This Project is developed by <span>Aakash Sangwan</span>
-            <a href="https://github.com/aakash2408">
-              <FiGithub />
-            </a>
-          </p>
+        <div className="image-container">
+         <img  className="image" src={virus}/>
         </div>
+       
+
+         
+      </div>
       </div>
     );
 }

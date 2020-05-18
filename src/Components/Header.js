@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { TiThListOutline } from "react-icons/ti";
-import covidIcon from "./Images/06.svg";
+import covidIcon from "./Images/virus.png";
 import { Link } from 'react-router-dom';
 import { MdViewList } from "react-icons/md";
 import { GiDrippingTube } from "react-icons/gi";
