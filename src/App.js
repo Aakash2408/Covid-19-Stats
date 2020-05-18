@@ -3,7 +3,7 @@ import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
-
+import Dashboard from "./Components/Dashboard";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
 
@@ -32,7 +32,7 @@ class App extends React.Component {
           <Header />
 
           <Switch>
-           
+           <Route exact path={"/dashboard"} component={Dashboard} />{" "}
             <Route exact path={"/about"} component={About} />{" "}
             <Route path={"/"} component={Home} />{" "}
           </Switch>
