@@ -2,7 +2,7 @@
   padding: 2% 5%;
   width: auto;
   /* color: #6d6d6d; */
-  background:linear-gradient(180deg ,rgb(241, 241, 241) 0% , rgb(245, 244, 244) 50% ,white  100% );
+  background:black;
   height:100%;
   display: flex;
   justify-content: space-between;
