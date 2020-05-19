@@ -98,16 +98,7 @@ p{
   justify-content: space-around;
   display: flex;
 }
-.dash-menu-container {
-  height: auto;
-  padding: 0 2%;
-  margin-right: 0;
-  background: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+
 @keyframes animate {
   from {
     opacity: 0.1;
