@@ -6,7 +6,7 @@ import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import Dashboard from "./Components/Dashboard";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
-// import Districtwise from "./Components/Districtwise";
+import Districtwise from "./Components/Districtwise";
 // import Testdata from "./Components/Testdata";
 import About from "./Components/About";
 import Home from "./Components/Home";
