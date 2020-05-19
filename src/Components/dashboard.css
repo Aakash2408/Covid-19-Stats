@@ -1,18 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-
+  ;
 
 }
 .dashContainer {
-  
+  background-color: black;
   display: flex;
   /* background: oldlace; */
   flex-direction: column;
   justify-content: space-around;
   width: auto;
   min-height: 100vh;
-  background: #f7f7f5;
+  /* background: #f7f7f5; */
   opacity: 0.1;
   transition-duration: 900ms;
   animation: animate 1000ms forwards;
@@ -37,7 +37,7 @@
   padding: 0% 2%;
   margin-right: 0;
 
-  background: rgb(255, 255, 255);
+  background: black !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
