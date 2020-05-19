@@ -24,8 +24,8 @@
   margin-left:25%;
 }
 .image{
-  -webkit-animation:  covid 120s ease-in infinite;
-  animation: covid 120s ease-in infinite;
+  -webkit-animation:  covid 30s ease-in infinite;
+  animation: covid 30s ease-in infinite;
   /* margin-right:2%; */
 }
 
@@ -67,8 +67,9 @@ h1{
 h2{
   /* font-weight:400; */
   font-size:xx-large;
-  margin-top:-15%;
+  margin-top:-5%;
   color: #eee;
+  opacity: 0.6;
 }
 p{
   text-decoration: none;

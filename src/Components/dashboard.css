@@ -153,7 +153,7 @@
 .total-cases-card {
   /* background:url("./Images/Web 1920 – 1.svg") no-repeat;
     background-size: cover; */
-  background: white;
+  background: black;
   width: 100%;
   margin: 0% 1%;
   padding: 2%;
@@ -223,17 +223,14 @@
   padding: 1% 5%;
 }
 .map-state-district-container {
-  /* background-color: indianred; */
-
-  /* background: rgb(241, 244, 245); */
   padding: 0% 1%;
 }
 
 .state-data-card {
-  /* background-color: #f7f4f4; */
+  background-color: #f7f4f4;
   padding: 2%;
   width: auto;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -306,8 +303,8 @@
   margin: 1% 2%;
 }
 .state-data-card-container {
-  height: 20em;
-
+  height: 30em;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
