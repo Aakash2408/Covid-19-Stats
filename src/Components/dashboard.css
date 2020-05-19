@@ -15,7 +15,7 @@
   background: #f7f7f5;
   opacity: 0.1;
   transition-duration: 900ms;
-  animation: animate 1000ms forwards;
+  /*  */
 }
 @keyframes animate {
   from {
