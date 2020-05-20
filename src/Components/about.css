@@ -68,7 +68,7 @@
 }
 .author-links > a{
     width: 100%;
-  margin: 0% 2%;
+  margin: 0% 15%;
   /* padding: 5%; */
 }
 .auth-social-icon{
@@ -105,11 +105,13 @@
     margin:0% 5%;
 }
 .auth-social-icon:hover{
-    background-color: rgb(235, 236, 236);
+    background-color: black;
+    color:white;
     
 }
 .git-project-link:hover{
-    background-color: rgb(235, 236, 236);
+  background-color: black;
+  color:white;
     
 }
 .about-image-cont{
