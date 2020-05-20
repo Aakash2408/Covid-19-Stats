@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import "./mapchart.css";
-import about from "./Images/Artboard_1.svg";
+import about from "./Images/about2.png";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedin, FaInstagram, FaFacebookF } from "react-icons/fa";
 
@@ -32,11 +32,11 @@ function About() {
                 <FaLinkedin />{" "}
               </span>
             </a>{" "}
-            <a href="https://www.instagram.com/theaakashsangwan/">
+            {/* <a href="https://www.instagram.com/theaakashsangwan/">
               <span className="auth-social-icon">
                 <FaInstagram />{" "}
               </span>
-            </a>{" "}
+            </a>{" "} */}
             <a href="">
               <span className="auth-social-icon">
                 <FaFacebookF />

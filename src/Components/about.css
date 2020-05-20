@@ -19,7 +19,9 @@
   }
 }
 .about-img{
-    width: 40em;
+    width: 35em;
+    height:100%;
+    max-height:700px;
     opacity: 0.7;
 }
 .credentials-cont{
@@ -32,7 +34,7 @@
 }
 .author-card{
     height:auto;
-padding: 5%;
+    padding: 5%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
@@ -53,20 +55,20 @@ padding: 5%;
     padding: 0;
     font-weight: 700;
     font-size: 2.2em;
-    color: rgb(143, 142, 142);
+    color: black;
      
     
 }
 .author-links{
-    /* padding:2% 0% ; */
+    padding:4% 0% ;
     width: 100%;
      
-       display: flex;
-       justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .author-links > a{
     width: 100%;
-  /* margin: 0% 2%; */
+  margin: 0% 2%;
   /* padding: 5%; */
 }
 .auth-social-icon{
@@ -136,7 +138,7 @@ padding: 5%;
 }
    .about-img{
     
-    width: fit-content;
+    width: 30vh;
     opacity: 0.7;
 } 
 .author-card{
@@ -151,6 +153,7 @@ width: 100%;
 .auth-social-icon{
   
 width: fit-content;
+
 
 }
 .author-name{
