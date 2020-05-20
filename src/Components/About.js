@@ -27,7 +27,7 @@ function About() {
                 <FiGithub />{" "}
               </span>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/">
               <span className="auth-social-icon">
                 <FaLinkedin />{" "}
               </span>
@@ -37,11 +37,7 @@ function About() {
                 <FaInstagram />{" "}
               </span>
             </a>{" "} */}
-            <a href="">
-              <span className="auth-social-icon">
-                <FaFacebookF />
-              </span>
-            </a>
+           
           </div>
         </div>
         <div className="author-card">
